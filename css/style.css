@@ -1,7 +1,6 @@
+@import 'bootstrapPlus.css';
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
-.jumbotron {
-    text-shadow: black 1px 1px 1px;
-    background-size: cover;
-    color: white;
-    background-image: url(../images/img1.jpeg);
+*{
+    font-family: 'Nanum Gothic', sans-serif;
 }

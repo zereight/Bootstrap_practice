@@ -1,0 +1,37 @@
+
+.jumbotron {
+    text-shadow: black 1px 1px 1px;
+    background-size: cover;
+    color: white;
+    background-image: url(../images/img1.jpeg);
+}
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar .navbar-brand{
+    color: wheat;
+}
+
+.nav-link{
+    color: white !important;
+}
+.nav-item > .nav-link:hover,
+.nav-item > .nav-link:focus {
+    background-color: wheat;
+    color: blue !important;
+}
+
+@media (max-width: 767px) {
+    .dropdown-menu {
+        background-color: red;
+    }
+}
