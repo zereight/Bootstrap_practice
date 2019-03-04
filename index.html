@@ -42,10 +42,11 @@
         <h1 class="text-center">Welcome to this Web-site!</h1>
         <p class="text-center">This site is composed of Bootstrap4.</p>
         <p class="text-center">
-          <a href="#" class="btn btn-lg btn-primary">Go to the community.</a>
+          <a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#modal1" >Go to the community.</a>
         </p>
       </div>
     </div>
+    
     
 
     <footer>
@@ -73,6 +74,26 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal fade" tabindex="-1" id="modal1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="my-modal-title">알림</h5>
+            <button class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>준비중인 서비스입니다. 나중에 다시 이용해 주세요.</p>
+          </div>
+          <div class="modal-footer">
+            죄송합니다.
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
